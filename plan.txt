@@ -1,0 +1,18 @@
+Add easter egg token
+Drops from chickens with 1/20 odds
+Consumable as token
+Functions as chicken egg
+Spawns easter chicken
+Add easter chicken 
+Drops easter eggs at 1/5 odds
+Not breedable
+Explodes on death
+Give them creeper AI at the end of the event
+Same color scheme as egg
+Add Nausea potions to the game
+Add easter candy
+Easter candy has a low chance to generate an assault rifle named Jesus and a seperate chance to generate a small ammo cartridge 
+Also gives all negative potions at once for 5 seconds 
+New texture pack
+Add children to Minecraft 
+Remove Herobrine 
