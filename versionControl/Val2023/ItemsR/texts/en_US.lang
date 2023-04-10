@@ -1,0 +1,13 @@
+pack.name=Wiki Resource Pack
+pack.description=A Ghostly Guide
+item.glitch:xmas_token=Christmas Token
+item.glitch:xmas_fragment=Christmas Token Fragment
+item.glitch:cnyfragment=Chinese New Year Token Fragment
+item.glitch:cnytoken=Chinese New Year Token
+item.glitch:cnycore=Chinese New Year Core
+item.glitch:rabbit_blood=Rabbit Blood
+item.glitch:eggnog=Eggnog
+item.glitch:wand=Menu
+item.glitch:valfragment=Valentines Token Fragment
+item.glitch:valtoken=Valentines Token
+item.glitch:xmascollect=2022 Christmas Celebration Award

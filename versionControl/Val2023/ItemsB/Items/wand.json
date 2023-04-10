@@ -1,0 +1,46 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+        	"identifier": "glitch:wand",
+        	"category": "items"
+        },
+        
+		"components": {
+            "minecraft:max_stack_size": 1,
+            "minecraft:hand_equipped": true,
+            "minecraft:foil": true,
+            "minecraft:knockback_resistance":{
+                "protection": 1
+            },
+            "minecraft:icon" : {
+        		"texture": "glitch.wand"
+        	},
+            "minecraft:use_duration": 1,
+            "minecraft:on_use": {
+                "on_use": {
+                    "event": "wand:menu",
+                    "target": "self"
+                }
+            },
+            "minecraft:on_use_on":{
+                "on_use_on": "wand:exception"
+            }
+		},
+        "events": {
+			"wand:menu": {
+                "run_command": {
+        			"target": "self",
+                    "command": [ "function menu" ]
+        		}
+			},
+            "wand:exception": {
+                "run_command": {
+        			"target": "self",
+                    "command": [ "say caught" ]
+        		}
+            }
+		}
+	}
+    
+}

@@ -1,0 +1,25 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "glitch:cnyfragment"
+      },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+            "###",
+            "#P#",
+            "###"
+            ],
+      "key": {
+        "P": {
+          "item": "glitch:rabbit_blood"
+        },
+        "#": {
+          "item": "minecraft:paper"
+          }
+        },
+    "result": {
+        "item": "glitch:cnyfragment"
+        }
+      }
+    }

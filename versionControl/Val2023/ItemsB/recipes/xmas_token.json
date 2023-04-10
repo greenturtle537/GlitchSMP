@@ -1,0 +1,25 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "glitch:xmas_token"
+      },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+            "###",
+            "#P#",
+            "###"
+            ],
+      "key": {
+        "P": {
+          "item": "minecraft:cookie"
+        },
+        "#": {
+          "item": "glitch:xmas_fragment"
+          }
+        },
+    "result": {
+        "item": "glitch:xmas_token"
+        }
+      }
+    }
