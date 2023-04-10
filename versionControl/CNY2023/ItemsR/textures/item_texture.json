@@ -1,0 +1,30 @@
+{
+	"resource_pack_name": "Custom Items",
+	"texture_name": "atlas.items",
+	"texture_data": {
+      "glitch.xmas_token": {
+    	"textures": "textures/items/xmas_token"
+      },
+      "glitch.xmas_fragment": {
+    	"textures": "textures/items/xmas_fragment"
+      },
+      "glitch.eggnog": {
+        "textures": "textures/items/eggnog"
+      },
+      "glitch.wand": {
+        "textures": "textures/items/wand"
+      },
+      "glitch.cnycore": {
+        "textures": "textures/items/cnycore"
+      },
+      "glitch.cnyfragment": {
+        "textures": "textures/items/cnyfragment"
+      },
+      "glitch.cnytoken": {
+        "textures": "textures/items/cnytoken"
+      },
+      "glitch.rabbit_blood": {
+        "textures": "textures/items/rabbit_blood"
+      }
+    }
+}

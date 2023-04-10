@@ -1,0 +1,24 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Custom Items for Glitch SMP",
+    "name": "Custom Items Toolkit",
+    "uuid": "031c4c07-dc9b-4fb6-acb9-ac74bf30d163",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 18, 10]
+  },
+  "modules": [
+    {
+      "description": "-",
+      "type": "data",
+      "uuid": "b435bad7-b850-4e84-bed1-7cea84b6ff8f",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+     "uuid":"d68d153a-1a32-4e26-a875-2a5fe426b25b",
+      "version":[1,0,0]
+    }
+ ]
+}

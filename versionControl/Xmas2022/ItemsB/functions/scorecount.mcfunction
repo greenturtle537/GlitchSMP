@@ -1,0 +1,1 @@
+scoreboard players add @s event_points 1
