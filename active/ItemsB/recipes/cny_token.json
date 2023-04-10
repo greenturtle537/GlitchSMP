@@ -1,0 +1,25 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "glitch:cnytoken"
+      },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+            "###",
+            "#P#",
+            "###"
+            ],
+      "key": {
+        "P": {
+          "item": "glitch:cnycore"
+        },
+        "#": {
+          "item": "glitch:cnyfragment"
+          }
+        },
+    "result": {
+        "item": "glitch:cnytoken"
+        }
+      }
+    }

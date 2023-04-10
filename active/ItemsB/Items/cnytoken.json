@@ -1,0 +1,34 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+        	"identifier": "glitch:cnytoken",
+        	"category": "items"
+        },
+		"components": {
+            "minecraft:max_stack_size": 64,
+            "minecraft:icon" : {
+        		"texture": "glitch.cnytoken"
+        	},
+            "minecraft:use_duration": 1.6,
+			"minecraft:food": {
+				"nutrition": 0,
+				"saturation_modifier": "low",
+				"can_always_eat": true,
+				"on_consume": {
+					"event": "cny:on_consume",
+					"target": "self"
+				}
+			},
+			"minecraft:use_animation": "eat"
+		},
+		"events": {
+			"cny:on_consume": {
+                "run_command": {
+        			"target": "self",
+                    "command": [ "function scorecount" ]
+        		}
+			}
+		}
+	}
+}

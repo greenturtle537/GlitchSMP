@@ -1,0 +1,18 @@
+{
+ "format_version": 2,
+ "header": {
+   "description": "Custom Items for Glitch SMP",
+   "name": "Custom Items Textures",
+   "uuid":"d68d153a-1a32-4e26-a875-2a5fe426b201",
+   "version": [1, 0, 0],
+   "min_engine_version": [1, 18, 10]
+  },
+ "modules": [
+   {
+     "description": "-",
+     "type": "resources",
+     "uuid": "96671bc2-9dc5-4e80-a223-3ffdb9aa8b01",
+     "version": [1, 0, 0]
+   }
+ ]
+}
