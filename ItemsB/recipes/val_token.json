@@ -1,0 +1,22 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "glitch:valtoken"
+      },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+            "###",
+            "###",
+            "###"
+            ],
+      "key": {
+        "#": {
+          "item": "minecraft:valfragment"
+          }
+        },
+    "result": {
+        "item": "glitch:valtoken"
+        }
+      }
+    }
