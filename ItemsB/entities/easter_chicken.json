@@ -36,10 +36,27 @@
                 },
                 "minecraft:loot": {
                     "table": "loot_tables/entities/chicken.json"
+                },
+                "minecraft:spawn_entity": {
+                    "entities": {
+                        "min_wait_time": 300,
+                        "max_wait_time": 600,
+                        "spawn_sound": "plop",
+                        "spawn_item": "egg"
+                    }
                 }
-
             }
-
+        },
+        "components": {
+            "minecraft:is_hidden_when_invisible": {
+            },
+            "minecraft:type_family": {
+                "family": [ "easter_chicken", "mob" ]
+            },
+            "minecraft:breathable": {
+                "total_supply": 15,
+                "suffocate_time": 0
+            }
         }
     }
 }
